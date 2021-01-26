@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World JS</title>
+</head>
+<body>
+    
+</body>
+<script src="index.js">
+function myFunction() {
+    var greeting;
+    var time = new Date().getHours();
+    if (time < 10) {
+      greeting = "Good morning";
+    } else if (time < 10) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+  }
+</script>
+</html>
